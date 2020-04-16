@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Page Title</title>
+		<!-- Bootstrap CSS -->
+			<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/items.css">
+	</head>
+	<body>
+		<header>
+			<div class="container-fluid">
+			<nav class="navbar navbar-expand-sm bg-dark fixed-top">
+				<a href="" class="navbar-brand text-white">EVERYTHING IS HERE
+				</a>
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#vary">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="vary">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item dropdown">
+							<a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">ACCOUNT</a>
+								<div class="dropdown-menu">
+									<a href="" class="dropdown-item" data-toggle="modal" data-target="#mylogin">LOGIN</a>
+									<a href="" class="dropdown-item" data-toggle="modal" data-target="#signup">SIGN UP</a>
+								</div>
+						</li>
+						<li class="nav-item">
+							<a href="#service" class="nav-link">
+							SERVICES</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link" data-toggle="modal" data-target="#contact">
+							CONTACT</a>
+						</li>					
+					</ul>
+				</div>			
+			</nav>	
+		</div>
+			<div class="modal fade" id="mylogin">
+						<div class="modal-dialog modal-dialog-centered">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h4 class="modal-title text-primary">LOGIN</h4>
+									<button type="button" class="close" data-dismiss="modal">&times;</button>						
+								</div>
+								<div class="modal-body">
+									<form action="./action.php">						
+										<input type="text" name="Username" placeholder="Username" class="form-control mb-3 border">
+										<input type="Password" name="pass" placeholder="Password" class="form-control border mb-3">
+										<button type="button" class="btn btn-primary btn-block m-auto border">SIGN IN</button>
+									</form>
+								</div>
+								<div class="modal-footer">
+										<a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" type="button" class="btn btn-danger btn-block border" class="btn-danger btn-block" role="button">SIGN IN WITH GOOGLE</a>
+										
+								</div>
+							</div>
+						</div>
+			</div>
+			<div class="modal fade" id="contact">
+				<div class="modal-dialog modal-dialog-centered mod">
+					<div class="modal-content">
+						<div class="modal-open">
+							<div class="d-flex flex-row">
+									<div class="col-6 my">
+										<h3 class="text-white">Contact Us</h3>
+										<section>
+											<h4 class="text-white">Call US:<h4>
+											<p class="text-white">+91-9856589655</p>
+											<h4 class="text-white">Mail To:</h4>
+											<p class="text-white">123mailcheyandi@gmail.com</p>
+										</section>
+										<address>
+											<h4 class="text-white">Address</h4>
+											<p class="text-white">
+												OPP:ANAND BHAVAN
+												street:VIP
+												GYKWAD-564568
+												NOIMBAR,
+												INDIA.
+											</p>
+										</address>
+										<quote class="text-white">OPEN SOON IN ELURU</quote>
+									</div>
+									<div class="col-6">
+										<div class="mb-4">
+											<h4>Queries/Suggetions</h4>
+										</div>
+									<form action="./action.php">
+										<div class="form-row mb-2">
+											<div class="col">
+												<input type="text" name="name" placeholder="Name" id="name" class="form-control">
+											</div>
+											<div class="col">
+												<input type="text" name="ename" placeholder="Email-Id" id="email" class="form-control">
+											</div>
+										</div>
+										<div class="form-group">
+											<textarea type="text-area" name="" rows="5" placeholder="Comments" class="form-control"></textarea>
+										</div>
+										<div>
+											<button type="button" class="btn btn-success">SUBMIT</button>
+											<button type="button"class="btn btn-danger float-right"  data-dismiss="modal">CLOSE</button>
+										</div>
+									</form>
+								</div>	
+							</div>												
+						</div>
+					</div>
+				</div>				
+			</div>
+	  <!-- Registration form -->
+	  <div class="modal fade" id="signup">
+	  	<div class="modal-dialog modal-dialog-centered">
+	  		<div class="modal-content">
+	  			<div class="modal-header style">
+	  					<img src="images/login200.jpg" class="rounded-circle m-auto">
+	  					<button type="button" class="close" data-dismiss="modal">&times;</button>	
+	  			</div>
+	  			<div class="modal-body">
+	  				<form class="form-group">
+	  					<label for="name">NAME:</label>
+	  					<input type="text" name="name" placeholder="Enter UR name" id="name" class="form-control">
+	  					<label for="email">EMAIL:</label>
+	  					<input type="text" name="ename" placeholder="Enter UR Email" id="email" class="form-control">
+	  					<label for="pass">Password:</label>
+	  					<input type="password" name="pass" placeholder="Enter UR Password" id="pass" class="form-control">
+	  					<label for="number">Phone Number:</label>
+	  					<input type="number" name="name" placeholder="Enter UR Mobile Number" id="number" class="form-control">
+	  				</form>
+	  			</div>
+	  			<div class="modal-footer">
+					<button type="button" class="btn btn-primary">REGISTER</button>
+	  			</div>
+	  		</div>
+	  	</div>
+	  </div>	
+		</header>
+	<!--  End OF HEAder CONTENT ------------------>
+		<div class="container-fluid mid">
+			<div class="d-inline-flex  mr-auto">
+				<section style="font-size: 24px" class="tim1 d-none d-xl-inline d-lg-inline">
+						<h1>Timings:</h1>
+							Morning : <br>10AM - 2PM<br>
+							Evening &nbsp;: <br>6PM - 11PM
+				</section>
+			</div>
+		</div>
+		<div class="container-fluid mt-2" id="service">
+			<div class="flex-row">
+				<div class="">
+					<h1 class="text-success" style="text-align:center;">SERVICES WE PR0VIDE</h1>
+				</div>
+				<div class="text-center">
+					<button type="button" class="btn btn-success mb-3">ANY CATERING</button><br>
+					<button type="button" class="btn btn-success mb-3">TABLE BOOKING</button><br>
+					<button type="button" class="btn btn-success mb-3">DOOR DELIVERY</button>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="card-deck">
+					<div class="card">
+						<img src="images/cater3.jpg" style="" class="card-img-top">
+						<div class="card-body">
+							<h3 class="card-title">Unlimited Varities</h3>
+							<p class="card-text">
+								Any thing order with in five mins we provide dishin front of you! 
+							</p>
+						</div>
+					</div>	
+							<div class="card">
+									<img src="images/cater1.jpeg" class="card-img-top">
+									<div class="card-body">
+										<h3 class="card-title">CATERING</h3>
+										<p class="card-text">At only limited cost we prodvide catering for Birthdays,Marriages,Partys...</p>
+							</div>
+					</div>	
+			</div>
+		</div>
+		<div class="container-fluid">
+				<div class="row">
+					<div class="col-xl-4 col-lg-6 col-md-6" id="tale-1">
+						<span>MENU</span>
+					</div>
+					<div class="col-xl-4 col col-lg-5 col-md-" id="tale-2">
+					<span>specilas</span>
+					</div>
+					<div class="col-xl-3 rounded" id="tale-3">
+						<a href="https://goo.gl/maps/tdvHbgC9GBqPBiYx6">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d477.6600231481683!2d81.09687957777811!3d16.71286605760169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3614b61aeecef7%3A0x3c37b03f40c5e7fa!2sAkarsh%20Pride!5e0!3m2!1sen!2sin!4v1586676057294!5m2!1sen!2sin" width="100%" height="196" frameborder="0" style="border:0"></iframe>
+							<span>Maps</span>
+						</a>
+					</div>
+				</div>
+		</div>
+		<!-- footer section-->
+		<footer class="page-footer slideanim">
+			<div class="container-fluid">
+				<div class="row foo">
+					<section class="col-xl-6">
+						<h3 class="">TASTY</h3>
+						Very good Indian food, the methi chicken was great and palak paneer was good. They had soft naan. The buffet was reasonable . The server was very polite and , showed a great service. Especially the tasty biryani is a biryani that comes through plate in the form of veg and other in the form form of non veg.According veg point of view its "Amazing like Zing Zing".And coming to the non veg side I take a review from my friend he said simply superb "Zing zing like Amazing" he had never eaten such a tasty food ever. 
+						<hr class="d-xl-none">
+					</section>
+					
+					<section class="col-xl-6">
+						<h3 class="">ABOUT</h3>
+						Indian Restaurant on Gykwad has had a face-lift. For the past 30 years 1301 East VIP Street has gone thru many reincarnations and this one is truly the most colorful and delicious. "It's all about the experience" says Terry Melville, who masterminded the rejuvenation of Tandoor Indian Restaurant along with Tandoor's Baleinder Bhupal, better known as Binda to his loyal customers. Vivid Indian-colored walls and doors of Mango Orange, Kashmiri Hot Pink and Bombay Yellow, trimmed in Peacock Blue replace the formerly drab off-white and brown decor.
+						<hr class="d-xl-none">
+					</section>
+					<section style="" class="col-xl-6 d-xl-none d-lg-none">
+						<h3>Timings</h3>
+							<p style="margin-left: 10em;">Opens at Morning :<br>10AM - 2PM<br>
+							Evening &nbsp;: <br>6PM - 11PM<p>
+				</section>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

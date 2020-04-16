@@ -1,0 +1,215 @@
+*{
+	box-sizing: border-box;
+	margin : 0px;
+	padding: 0px;
+}
+.serv{
+	margin: 1% 0% 1% 35%;
+}
+.navbar-expand-sm > a:hover{
+	text-shadow: 2px 1px 2px dodgerblue;
+	background-repeat: no-repeat;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+.align1{
+	position: absolute;
+	left: 100px;
+}
+.img1{
+	background-image: url("images/cofe.jpg"); 
+	margin: 1% 0px 0px 0px;
+	width: 100%;
+	height: 700px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+	clip-path: circle(85% at 10% 50%);
+}
+.img1 > h1{
+	color: white;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 5px 3px 4px dodgerblue;
+}
+/*.col-3 > h1{
+	color: white;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 50px;
+	position: absolute;
+	left: 150px;
+	padding: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 5px 3px 4px dodgerblue;
+}*/
+.mid{
+	background-image: url("images/back3.jpg");
+	margin: 1% 0px 0px 0px;
+	height: 900px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+h2{
+	color: white; 
+	margin-top: 60px;
+	font-family: 'Gochi Hand', cursive;
+	text-shadow: 5px 3px 4px dodgerblue;
+	font-weight: bold;
+	font-size: 40px;
+}
+.ul{
+	text-align: right;
+	margin-left: 55vw;
+}
+ul li {
+	list-style: none;
+	color: white;
+	font-size:21px;
+	text-shadow: 5px 3px 5px lightblue;
+	text-rendering: 
+
+}
+.dish{
+	color: white;
+	margin-left: 160px;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 50px;
+	padding: 0px;
+	margin-bottom: 0px; 
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 5px 3px 4px dodgerblue;
+}
+.col-6  h2{
+	color: white; 
+	margin-top: 0px;
+	font-family: 'Gochi Hand', cursive;
+	text-shadow: 5px 3px 4px dodgerblue;
+	font-weight: bold;
+	font-size: 40px;
+}
+a{
+	color:white;
+}
+.container{
+	padding-right: 0px;
+	margin-left: 5px;
+	margin-right: 0px;
+}
+.row  div{
+	width: 100%;
+	height: 200px;
+	margin-top: 1em;
+}
+.row div:hover{
+	box-shadow: 1px 5px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+#tale-1{
+	background-image: url("images/veg2.jpg");
+	background-position: center;
+	border-radius: 5px;
+	margin: 0.5em;
+}
+#tale-2{
+	background-image: url("images/special.jpg");
+	background-position: center;
+	border-radius: 5px;
+	margin: 0.5em;
+}
+#tale-3{
+	border-radius: 5px;
+	margin: 0.5em;
+}
+#tale-1 span, #tale-2 span, #tale-3 span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.8;
+}
+iframe{
+	border-radius: 5px;
+	position: absolute;
+	left: 1px;
+}
+.foo{
+	background-color: gray;
+	background-clip: border-box;
+	padding: 10px;
+}
+footer{
+	padding: 0px;
+	margin-left: em;
+	margin-top: 1em;
+	margin-right: 0em;
+	margin-bottom: 1em
+}
+.tim1{
+	margin: 8em 0em 0em 3em;
+	color: white;
+	text-shadow: 0px 0.5px 5px;	
+}
+.style{
+	background: linear-gradient(to top right, #2AFADF, #4C83FF);
+}
+.border{
+	border-radius: 20px;
+}
+.m{
+margin-left: 4em;
+}
+.mod{
+	rad: 18px;
+}
+.my{background-color: dodgerblue;}
+@media (max-width: 577px){
+	.img1{
+		height: 400px;
+		clip-path: none;
+	}
+	.foo h3{
+		text-align: center;
+	}
+	ul li{
+		text-align: center;
+	}
+	#service > h1{
+		font-size: 25px;
+		margin-left: 1em;
+		margin-right: -9em;
+		margin-top: 10px;
+	}
+}
+
+@media (min-width: 578px) and (max-width: 768px){
+	.foo h3{
+		text-align: center;
+	}
+	ul li{
+		font-size: 18px;
+	}
+	#tale-1{
+		background-image: url("images/veg2_sm.jpg");
+		background-position: 
+	}
+	#tale-2{
+	background-image: url("images/special_sm.jpg");
+}
+	#service > h1{
+		font-size: 25px;
+		margin-left: 1em;
+		}
+}
+@media (min-width:992px) and (max-width:1200px){
+		#tale-1{
+		background-image: url("images/veg2_md.jpg");
+		background-position: 
+		}
+}
